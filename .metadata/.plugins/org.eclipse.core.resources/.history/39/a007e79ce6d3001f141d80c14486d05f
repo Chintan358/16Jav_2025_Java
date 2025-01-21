@@ -1,0 +1,6 @@
+package pettern;
+
+public class Snippet {
+	int starCount = lines;
+}
+
