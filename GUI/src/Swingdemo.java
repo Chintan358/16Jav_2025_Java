@@ -2,9 +2,14 @@ import java.awt.FlowLayout;
 import java.awt.GridLayout;
 
 import javax.swing.ButtonGroup;
+import javax.swing.JButton;
 import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 
@@ -51,6 +56,34 @@ public class Swingdemo {
 		JCheckBox marathi = new JCheckBox("Marathi");
 		marathi.setBounds(280, 220, 70, 20);
 		
+		String ctr[] = {"India","USA","UK","Canada"};
+		JLabel l6 = new JLabel("Country");
+		l6.setBounds(100, 250, 70, 20);
+		JComboBox<String> country = new JComboBox<String>(ctr);
+		country.setBounds(200, 250, 150, 20);
+		
+		JButton submit = new JButton("Submit");
+		submit.setBounds(200, 300, 150, 20);
+		
+		
+		JMenuBar menubar = new JMenuBar();
+		menubar.setBounds(0, 0, 700, 20);
+		
+		JMenu file = new JMenu("File");
+		JMenu edit = new JMenu("Edit");
+		JMenu help = new JMenu("Help");
+		
+		menubar.add(file);
+		menubar.add(edit);
+		menubar.add(help);
+		
+		
+		JMenuItem save = new JMenuItem("Save");
+		JMenuItem open = new JMenuItem("Open");
+		
+		file.add(save);
+		file.add(open);
+		
 		frame.add(l1);
 		frame.add(l2);
 		frame.add(uname);
@@ -62,11 +95,12 @@ public class Swingdemo {
 		frame.add(guj);
 		frame.add(marathi);
 		frame.add(eng);
+		frame.add(l6);
 		frame.add(hindi);
 		frame.add(l5);
-		
-		
-		
+		frame.add(country);
+		frame.add(submit);
+		frame.add(menubar);
 		
 	}
 }
