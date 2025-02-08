@@ -18,7 +18,7 @@ import javax.swing.JTable;
 import javax.swing.JScrollPane;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-
+import net.proteanit.sql.*;
 public class Crud {
 
 	private JFrame frame;
@@ -50,9 +50,11 @@ public class Crud {
 	public Crud() {
 		initialize();
 		connect();
+		load();
 	}
 	
 	Connection cn= null;
+	private JTextField searchvalue;
 	public void connect()
 	{
 		try {
@@ -63,7 +65,33 @@ public class Crud {
 			e.printStackTrace();
 		}
 	}
-
+	
+	public void load()
+	{
+		try {
+			PreparedStatement ps =cn.prepareStatement("select * from users");
+			ResultSet rs = ps.executeQuery();
+			table.setModel(DbUtils.resultSetToTableModel(rs));
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 	;
+		
+	}
+	
+	public void search()
+	{
+		String data = "Roshan";
+		try {
+			PreparedStatement ps =cn.prepareStatement("select * from users where name='"+data+"'");
+			ResultSet rs = ps.executeQuery();
+			table.setModel(DbUtils.resultSetToTableModel(rs));
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 	;
+	}
+	
 	/**
 	 * Initialize the contents of the frame.
 	 */
@@ -170,5 +198,19 @@ public class Crud {
 		JButton btnDelete = new JButton("Delete");
 		btnDelete.setBounds(281, 38, 78, 23);
 		panel.add(btnDelete);
+		
+		JButton btnNewButton_1 = new JButton("Search");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				search();
+			}
+		});
+		btnNewButton_1.setBounds(194, 72, 165, 23);
+		panel.add(btnNewButton_1);
+		
+		searchvalue = new JTextField();
+		searchvalue.setBounds(20, 75, 150, 20);
+		panel.add(searchvalue);
+		searchvalue.setColumns(10);
 	}
 }
