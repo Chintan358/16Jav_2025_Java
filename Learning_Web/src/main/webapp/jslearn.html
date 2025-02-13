@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function heading() {
+
+            var h1 = document.getElementsByTagName("h1")[0]
+            var h2 = document.getElementsByTagName("h1")[1]
+
+            h1.style.color = "Red"
+            h2.style.color = "Blue"
+        }
+
+        function heading1() {
+
+            var h1 = document.getElementsByTagName("h1")[0]
+            var h2 = document.getElementsByTagName("h1")[1]
+
+            h1.style.color = "Blue"
+            h2.style.color = "Red"
+        }
+
+        function add(){
+
+            var a = document.getElementById("a").value;
+            var b = document.getElementById("b").value;
+            var result = Number(a)+Number(b)
+            document.getElementById("r").innerHTML = result;
+        }
+
+        function sub(){
+            var a = document.getElementById("a").value;
+            var b = document.getElementById("b").value;
+            var result = Number(a)-Number(b)
+            document.getElementById("r").innerHTML = result;
+        }
+
+        function mul(){
+            var a = document.getElementById("a").value;
+            var b = document.getElementById("b").value;
+            var result = Number(a)*Number(b)
+            document.getElementById("r").innerHTML = result;
+        }
+        
+        function div(){
+            var a = document.getElementById("a").value;
+            var b = document.getElementById("b").value;
+            var result = Number(a)/Number(b)
+            document.getElementById("r").innerHTML = result;
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1 onmouseover="heading()">Tops technologies</h1>
+    <h1 onmouseover="heading1()">Surat</h1>
+
+    <hr>
+
+    <input type="text" placeholder="Enter number" id="a">
+    <input type="text" placeholder="Enter number" id="b">
+    Result :  <span id="r"></span>
+
+    <br>
+    <br>
+    <button onmouseover="add()">Add</button>
+    <button onmouseover="sub()">Subtract</button>
+    <button onmouseover="mul()">Multiply</button>
+    <button onmouseover="div()">Divide</button>
+
+</body>
+
+</html>

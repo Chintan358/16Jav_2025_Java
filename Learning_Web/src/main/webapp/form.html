@@ -5,46 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .tf {
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid black;
+        }
+
+        h1{
+            color: red;
+        }
+
+
+    </style>
+
+
 </head>
 
 <body>
 
+    <h1>Hello</h1>
     <fieldset>
         <legend>Registration form</legend>
-    <form action="" method="">
-        <label for="uname">Username</label>
-        <input type="text" id="uname">
-        <br><br>
-        <label for="email">Email</label>
-        <input type="email" id="email">
-        <br><br>
-        <label for="pass">Password</label>
-        <input type="password" id="pass">
-        <br><br>
-        <label for="gender">Gender</label>
-        <input type="radio" name="gender" checked>Male
-        <input type="radio" name="gender">Female
-        <br><br>
-        <label for="">Languages</label>
-        <input type="checkbox">Java
-        <input type="checkbox">Php
-        <input type="checkbox">Android
-        <br><br>
-        <label for="">Country</label>
-        <select name="" id="">
-            <option value="">India</option>
-            <option value="">Usa</option>
-            <option value="">UK</option>
-        </select>
-        <br><br>
-        <label for="">Address</label>
-        <textarea rows="2" cols="20"></textarea>
-        <br><br>
-        <input type="submit">
-        <input type="reset">
-    </form> 
+        <form action="" method="">
+            <label for="uname">Username</label>
+            <input type="text" id="uname" class="tf">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" class="tf">
+            <br><br>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" class="tf">
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" checked >Male
+            <input type="radio" name="gender">Female
+            <br><br>
+            <label for="">Languages</label>
+            <input type="checkbox">Java
+            <input type="checkbox">Php
+            <input type="checkbox">Android
+            <br><br>
+            <label for="">Country</label>
+            <select name="" id="" class="tf">
+                <option value="">India</option>
+                <option value="">Usa</option>
+                <option value="">UK</option>
+            </select>
+            <br><br>
+            <label for="">Address</label>
+            <textarea rows="2" cols="20"></textarea>
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
 
-</fieldset>
+    </fieldset>
 </body>
 
 </html>

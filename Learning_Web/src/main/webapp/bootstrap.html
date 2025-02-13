@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script>
+        function validate() {
+
+            var uname = document.getElementById("uname").value
+            var email = document.getElementById("email").value
+            var phone = document.getElementById("phone").value
+            var pass = document.getElementById("pass").value
+            var cpass = document.getElementById("cpass").value
+
+            var unameErr = document.getElementById("unameErr")
+            var emailErr = document.getElementById("emailErr")
+            var phoneErr = document.getElementById("phoneErr")
+            var passErr = document.getElementById("passErr")
+            var cpassErr = document.getElementById("cpassErr")
+
+            var btn = document.getElementById("smbtn")
+
+            var unameExp = /^[a-zA-Z]+$/
+            var phoneExp = /^[0-9]{10}$/
+            var emailExp = /^[a-zA-Z0-9_-]+@[a-zA-Z]+\.[a-z]{2,4}$/
+
+
+            if (uname == "" || uname == null) {
+                unameErr.innerHTML = "Username Required !!!!"
+                btn.disabled = true;
+            }
+            else if (!unameExp.test(uname)) {
+                unameErr.innerHTML = "Invalid Username !!!!"
+                btn.disabled = true;
+            }
+            else {
+                unameErr.innerHTML = ""
+                btn.disabled = false;
+            }
+
+            if (email == "" || email == null) {
+                emailErr.innerHTML = "Email Required !!!!"
+                btn.disabled = true;
+            }
+            else if (!emailExp.test(email)) {
+                emailErr.innerHTML = "Invalid email format !!!!"
+                btn.disabled = true;
+            }
+            else {
+                emailErr.innerHTML = ""
+                btn.disabled = false;
+            }
+
+            if (phone == "" || phone == null) {
+                phoneErr.innerHTML = "Phone Required !!!!"
+                btn.disabled = true;
+            }
+            else if (!phoneExp.test(phone)) {
+                phoneErr.innerHTML = "Invalid phone !!!!"
+                btn.disabled = true;
+            }
+            else {
+                phoneErr.innerHTML = ""
+                btn.disabled = false;
+            }
+
+
+            if (pass == "" || pass == null) {
+                passErr.innerHTML = "Password Required !!!!"
+                btn.disabled = true;
+            }
+            else {
+                passErr.innerHTML = ""
+                btn.disabled = false;
+            }
+
+
+            if (cpass == "" || cpass == null) {
+                cpassErr.innerHTML = "Confirm password Required !!!!"
+                btn.disabled = true;
+            }
+            else if (pass != cpass) {
+                cpassErr.innerHTML = "Password and confirm password should be same !!!"
+                btn.disabled = true;
+            }
+            else {
+                cpassErr.innerHTML = ""
+                btn.disabled = false;
+            }
+
+
+
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="row">
+
+            <div class="col-6 mx-auto card p-5 mt-3">
+                <h1 class="text-danger">Registration form</h1>
+                <hr>
+                <form action="">
+                    <div class="form-group">
+                        <label>Username</label>
+                        <input type="text" class="form-control" id="uname" onkeyup="validate()">
+                        <span id="unameErr" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" class="form-control" id="email" onkeyup="validate()">
+                        <span id="emailErr" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input type="text" class="form-control" id="phone" onkeyup="validate()">
+                        <span id="phoneErr" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="text" class="form-control" id="pass" onkeyup="validate()">
+                        <span id="passErr" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Confirm password</label>
+                        <input type="text" class="form-control" id="cpass" onkeyup="validate()">
+                        <span id="cpassErr" class="text-danger"></span>
+                    </div>
+
+                    <input type="submit" class="btn btn-success" id="smbtn">
+                    <input type="reset" class="btn btn-primary">
+                </form>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
