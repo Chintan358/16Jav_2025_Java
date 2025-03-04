@@ -1,0 +1,50 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="model.User"%>
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+				<div class="container">
+					<div class="row">
+					<div class="col-10 mx-auto card p-5 mt-5">
+					<h1 align="center">User Details</h1>
+					<hr>
+				<table class="table">
+				<tr>
+				<th>Id</th>
+				<th>Username</th>
+				<th>Email</th>
+				<th>Phone</th>
+				<th colspan="2">Action</th>
+				</tr>
+				
+				
+			<%
+			   ArrayList<User> users =(ArrayList)request.getAttribute("data");					
+				for(User u : users)
+				{ %>
+					
+					<tr>
+					<td><%=u.getId()%></td>
+					<td><%=u.getUname() %></td>
+					<td><%=u.getEmail() %></td>
+					<td><%=u.getPhone() %></td>
+					<td><a href="update?uid=<%=u.getId()%>&action=delete" class="btn btn-danger">Delete</a></td>
+					<td><a href="update?uid=<%=u.getId()%>&action=update" class="btn btn-primary">Update</a></td>
+					</tr>
+				<%}
+			%>
+			</table>
+			</div>
+					</div>
+				</div>
+</body>
+</html>

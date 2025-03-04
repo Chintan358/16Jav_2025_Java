@@ -3,6 +3,7 @@ package dao;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -46,18 +47,77 @@ public class UserDao {
 	public int deleteUser(int id)
 	{
 		int i = 0;
+		try {
+			PreparedStatement ps = cn.prepareStatement("delete from users where id=?");
+			ps.setInt(1, id);
+			i = ps.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return i;
 	}
 	
 	public User userById(int id)
 	{
 		User u = new User();
+		try {
+			PreparedStatement ps = cn.prepareStatement("select * from users where id=?");
+			ps.setInt(1, id);
+			ResultSet rs = ps.executeQuery();
+			if(rs.next())
+			{
+				u.setId(rs.getInt(1));
+				u.setUname(rs.getString(2));
+				u.setEmail(rs.getString(3));
+				u.setPhone(rs.getString(4));
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		return u;
 	}
 	
 	public List<User> allUsers()
 	{
 		List<User> users = new ArrayList();
+		try {
+			PreparedStatement ps = cn.prepareStatement("select * from users");
+			ResultSet rs = ps.executeQuery();
+			while(rs.next())
+			{
+				
+				User u = new User();
+				u.setId(rs.getInt(1));
+				u.setUname(rs.getString(2));
+				u.setEmail(rs.getString(3));
+				u.setPhone(rs.getString(4));
+				
+				users.add(u);
+			}
+		
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return users;
+	}
+
+	public int updateUser(User u) {
+		int i=0;
+		try {
+			PreparedStatement ps = cn.prepareStatement("update users set name=?,email=?,phone=? where id=?");
+			ps.setString(1, u.getUname());
+			ps.setString(2, u.getEmail());
+			ps.setString(3, u.getPhone());
+			ps.setInt(4, u.getId());
+			i= ps.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return i;
 	}
 }
