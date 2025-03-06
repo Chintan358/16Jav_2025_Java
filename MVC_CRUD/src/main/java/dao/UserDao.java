@@ -145,4 +145,30 @@ public class UserDao {
 		
 		return b;
 	}
+
+	public User loginCheck(User u) {
+	
+		User user = null;
+		try {
+			PreparedStatement ps = cn.prepareStatement("select * from users where name=? and pass=?");
+			ps.setString(1, u.getUname());
+			ps.setString(2, u.getPass());
+			ResultSet rs  =ps.executeQuery();
+			
+			if(rs.next())
+			{
+				user = new User();
+				user.setId(rs.getInt(1));
+				user.setUname(rs.getString(2));
+				user.setEmail(rs.getString(3));
+				user.setPhone(rs.getString(4));
+			}
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return user;
+	}
 }

@@ -11,37 +11,30 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-6 mx-auto card mt-3 p-5" >
-			<h1>User Registration</h1>
+			<h1>User Login</h1>
 			<hr>
 			<span class="text-danger">${err}</span>
 			<span class="text-success">${msg}</span>
-			<form action="reg" method="post">
+			<form action="login" method="post">
 				<div class="form-group">
 				<label>Username</label>
 				<input type="text" name="uname" class="form-control">
 				</div>
 				
-				<div class="form-group">
-				<label>Email</label>
-				<input type="text" name="email" class="form-control">
-				</div>
+			
 				
 				<div class="form-group">
 				<label>Password</label>
 				<input type="password" name="pass" class="form-control">
 				</div>
 				
-				<div class="form-group">
-				<label>Phone</label>
-				<input type="text" name="phone" class="form-control">
-				</div>
+				
 				
 				<br>
 				<div class="form-group">
 				
 				<input type="submit"  class="btn btn-success">
-				<a href="display" class="btn btn-danger">View Users</a>
-				<a href="login.jsp">Alredy Registered ? Login here </a>
+				<a href="index.jsp">New user? Register here</a>
 				</div>
 				
 				
