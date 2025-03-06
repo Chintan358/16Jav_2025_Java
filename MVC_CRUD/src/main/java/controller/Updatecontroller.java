@@ -30,7 +30,7 @@ public class Updatecontroller extends HttpServlet {
 		else if(action.equals("update"))
 		{
 			User u =  dao.userById(uid);
-			req.setAttribute(""+ "", u);
+			req.setAttribute("user", dao);
 			req.getRequestDispatcher("update.jsp").forward(req, resp);
 		}
 		

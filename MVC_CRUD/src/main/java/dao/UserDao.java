@@ -30,11 +30,12 @@ public class UserDao {
 	{
 		int i=0;
 		try {
-			PreparedStatement ps = cn.prepareStatement("insert into users values(?,?,?,?)");
+			PreparedStatement ps = cn.prepareStatement("insert into users values(?,?,?,?,?)");
 			ps.setInt(1, 0);
 			ps.setString(2, u.getUname());
 			ps.setString(3, u.getEmail());
 			ps.setString(4, u.getPhone());
+			ps.setString(5, u.getPass());
 			i = ps.executeUpdate();
 		
 		} catch (SQLException e) {
@@ -119,5 +120,29 @@ public class UserDao {
 			e.printStackTrace();
 		}
 		return i;
+	}
+	
+	
+	public boolean isUsernameExist(User u)
+	{
+		boolean b = false;
+		try {
+			PreparedStatement ps = cn.prepareStatement("select * from users where name=?");
+			ps.setString(1, u.getUname());
+			
+			ResultSet rs = ps.executeQuery();
+			
+			if(rs.next())
+			{
+				b = true;
+			}
+		
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		return b;
 	}
 }

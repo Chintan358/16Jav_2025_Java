@@ -19,20 +19,31 @@ public class REgController extends HttpServlet {
 		String uname = req.getParameter("uname");
 		String email = req.getParameter("email");
 		String phone = req.getParameter("phone");
+		String pass = req.getParameter("pass");
 		
 		User u = new User();
+		u.setPass(pass);
 		u.setUname(uname);
 		u.setEmail(email);
 		u.setPhone(phone);
 		
 		UserDao dao = new UserDao();
-		int i = dao.addUser(u);
 		
-		if(i>0)
+		if(dao.isUsernameExist(u))
 		{
-			req.setAttribute("msg", "Registration success");
+			req.setAttribute("err", "User alredy exist!!");
 			req.getRequestDispatcher("index.jsp").forward(req, resp);
 		}
+		else
+		{
+			int i = dao.addUser(u);
+			if(i>0)
+			{
+				req.setAttribute("msg", "Registration success");
+				req.getRequestDispatcher("index.jsp").forward(req, resp);
+			}
+		}
+		
 		
 	}
 }

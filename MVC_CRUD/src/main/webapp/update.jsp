@@ -15,7 +15,7 @@
 			<hr>
 			<span class="text-success">${msg}</span>
 			<form action="useredit" method="post">
-				<input type="hidden" name="id" value="${user.getId()}">
+				<input type="text" name="id" >
 				<div class="form-group">
 				<label>Username</label>
 				<input type="text" name="uname" value="${user.getUname()}" class="form-control">

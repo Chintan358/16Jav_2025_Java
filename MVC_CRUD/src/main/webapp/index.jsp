@@ -13,6 +13,7 @@
 			<div class="col-6 mx-auto card mt-3 p-5" >
 			<h1>User Registration</h1>
 			<hr>
+			<span class="text-danger">${err}</span>
 			<span class="text-success">${msg}</span>
 			<form action="reg" method="post">
 				<div class="form-group">
@@ -23,6 +24,11 @@
 				<div class="form-group">
 				<label>Email</label>
 				<input type="text" name="email" class="form-control">
+				</div>
+				
+				<div class="form-group">
+				<label>Password</label>
+				<input type="password" name="pass" class="form-control">
 				</div>
 				
 				<div class="form-group">
