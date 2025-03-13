@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Learning_Web_server" path="/Learning_Web_server" reloadable="true" source="org.eclipse.jst.jee.server:Learning_Web_server"/><Context docBase="ServletContextConfig" path="/ServletContextConfig" reloadable="true" source="org.eclipse.jst.jee.server:ServletContextConfig"/><Context docBase="MVC_CRUD" path="/MVC_CRUD" reloadable="true" source="org.eclipse.jst.jee.server:MVC_CRUD"/></Host>
+      <Context docBase="Learning_Web_server" path="/Learning_Web_server" reloadable="true" source="org.eclipse.jst.jee.server:Learning_Web_server"/><Context docBase="ServletContextConfig" path="/ServletContextConfig" reloadable="true" source="org.eclipse.jst.jee.server:ServletContextConfig"/><Context docBase="MVC_CRUD" path="/MVC_CRUD" reloadable="true" source="org.eclipse.jst.jee.server:MVC_CRUD"/><Context docBase="Filter_LEarning" path="/Filter_LEarning" reloadable="true" source="org.eclipse.jst.jee.server:Filter_LEarning"/><Context docBase="Ajax_Learning" path="/Ajax_Learning" reloadable="true" source="org.eclipse.jst.jee.server:Ajax_Learning"/></Host>
     </Engine>
   </Service>
 </Server>
