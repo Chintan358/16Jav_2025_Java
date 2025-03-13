@@ -15,7 +15,7 @@
 				var data =  document.getElementById("data").value
 				
 				$.get("ser",{data},function(rt){
-					alert(rt)
+					$("#result").html(rt)
 				})
 				
 				
@@ -28,8 +28,9 @@
 </head>
 <body>
 
+
 	<input type="text" name="data" id="data">
 	<button onclick="clickme()">click me</button>
-
+	<div id="result"></div>
 </body>
 </html>
