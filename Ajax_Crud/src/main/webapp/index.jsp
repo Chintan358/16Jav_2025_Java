@@ -102,6 +102,44 @@
 			})
 			
 		}
+	
+		const emailCheck = (value)=>{
+			
+			$.get("emailcheck",{value},(rt)=>{
+				var email = document.getElementById("email")
+				var emailErr = document.getElementById("emailErr")
+				if(rt=="true")
+				{
+					email.style.border="1px solid red"
+					emailErr.innerHTML="Email already exist !!!"
+					$("#smbtn").prop('disabled', true);
+				}
+				else
+				{
+					email.style.border=""
+					emailErr.innerHTML=""
+					$("#smbtn").prop('disabled', false);
+				}
+			})
+		}
+		
+		const search = (value)=>{
+			
+			$.get("search",{value},(rt)=>{
+				
+				data = JSON.parse(rt)
+				var rows=""
+				data.map(ele=>{
+					
+					rows+="<tr><td>"+ele.id+"</td><td>"+ele.uname+"</td><td>"+ele.email+"</td><td>"+ele.phone+"</td><td><button onclick='deleteuser("+ele.id+")' class='btn btn-danger'>Delete</button></td><td><button onclick='edituser("+ele.id+")' class='btn btn-primary'>Update</button></td></tr>"
+					
+				})
+				
+				$("#tdata").html(rows)
+			})
+			
+			
+		}
 
 </script>
 
@@ -121,7 +159,8 @@
 			
 			<div class="form-group">
 			<label>Email</label>
-			<input type="text" id="email" placeholder="Enter Email" class="form-control">
+			<input type="text" id="email" placeholder="Enter Email" onblur="emailCheck(value)" class="form-control">
+			<span id="emailErr" class="text-danger"></span>
 			</div>
 			
 			<div class="form-group">
@@ -145,6 +184,8 @@
 			<div class="col-7 card p-3 mt-5">
 			<h2 align="center">User Details</h2>
 			<hr>
+				<input type="text" onkeyup="search(value)" placeholder="Search..." class="form-control">
+				<br>
 				<table class="table">
 				<thead>
 				<tr>

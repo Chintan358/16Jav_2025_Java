@@ -131,6 +131,58 @@ public class UserDao {
 		}
 		return i;
 	}
+
+
+	public boolean isEmailCheck(String email) {
+		
+		boolean b=false;
+		try {
+			PreparedStatement ps = cn.prepareStatement("select * from users where email=?");
+			ps.setString(1, email);
+			
+			ResultSet rs = ps.executeQuery();
+			if(rs.next())
+			{
+				b  =true;
+			}
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return b;
+	}
+
+
+	public List<User> searchUsers(String value) {
+		
+		
+		List<User> users = new ArrayList();
+		try {
+			PreparedStatement ps = cn.prepareStatement("select * from users where name like ? or phone like ?");
+			ps.setString(1, value+"%");
+			ps.setString(2, value+"%");
+			ResultSet rs = ps.executeQuery();
+			while(rs.next())
+			{
+				User u = new User();
+				u.setId(rs.getInt(1));
+				u.setUname(rs.getString(2));
+				u.setEmail(rs.getString(3));
+				u.setPhone(rs.getString(4));
+				u.setPass(rs.getString(5));
+				
+				users.add(u);
+			}
+				
+		
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return users;
+	}
 	
 	
 }
