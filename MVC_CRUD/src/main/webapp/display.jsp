@@ -3,6 +3,7 @@
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+ <%@ taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c"%>   
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,7 +38,7 @@
 				</tr>
 				
 				
-			<%
+			<%-- <%
 			   ArrayList<User> users =(ArrayList)request.getAttribute("data");					
 				for(User u : users)
 				{ %>
@@ -51,7 +52,20 @@
 					<td><a href="update?uid=<%=u.getId()%>&action=update" class="btn btn-primary">Update</a></td>
 					</tr>
 				<%}
-			%>
+			%> --%>
+			
+			<c:forEach items="${data}" var="u">
+			
+			<tr>
+					<td>${u.getId()}</td>
+					<td>${u.getUname() }</td>
+					<td>${u.getEmail()}</td>
+					<td>${u.getPhone()}</td>
+					<td><a href="update?uid=${u.getId()}&action=delete" class="btn btn-danger">Delete</a></td>
+					<td><a href="update?uid=${u.getId()}&action=update" class="btn btn-primary">Update</a></td>
+					</tr>
+			</c:forEach>
+			
 			</table>
 			</div>
 					</div>
