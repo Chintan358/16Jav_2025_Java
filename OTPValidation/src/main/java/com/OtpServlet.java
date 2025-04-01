@@ -9,6 +9,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 @WebServlet("/otp")
 public class OtpServlet extends HttpServlet {
@@ -25,7 +26,10 @@ public class OtpServlet extends HttpServlet {
 		
 		if(otp.equals(r_otp))
 		{
-			pw.write("<h1>Success</h1>");
+			HttpSession session = req.getSession();
+			session.setAttribute("user", "user");
+			req.getRequestDispatcher("success.jsp").forward(req, resp);
+			
 		}
 		else
 		{
