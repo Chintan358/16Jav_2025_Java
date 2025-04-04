@@ -11,9 +11,9 @@ public class AddStudent {
 	public static void main(String[] args) {
 		
 		Student st = new Student();
-		st.setId(10);
-		st.setName("Rohit");
-		st.setEmail("rohit@gmail.com");
+		st.setId(12);
+		st.setName("Roshan-update");
+		st.setEmail("roshan@gmail.com");
 
 		
 		Configuration cfg = new Configuration();
@@ -25,7 +25,7 @@ public class AddStudent {
 		
 		Session s = sf.openSession();
 		Transaction tx = s.beginTransaction();
-		s.save(st);
+		s.saveOrUpdate(st);
 		tx.commit();
 		
 		

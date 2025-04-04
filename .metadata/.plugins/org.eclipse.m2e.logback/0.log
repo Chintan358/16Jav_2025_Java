@@ -2551,3 +2551,420 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2025-04-01 10:34:09,596 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-04-01 10:34:09,600 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2025-04-01 10:34:09,601 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:50:28,333 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-02 09:52:10,500 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-02 09:52:10,941 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:52:10,946 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:52:10,956 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:52:10,958 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:52:21,442 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:52:21,444 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:52:21,448 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:52:21,450 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:53:08,789 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:53:08,791 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:53:08,795 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:53:08,796 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:53:29,406 [Worker-11: Launching AddStudent (1)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:53:29,408 [Worker-11: Launching AddStudent (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:53:29,412 [Worker-11: Launching AddStudent (1)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:53:29,413 [Worker-11: Launching AddStudent (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:54:45,092 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:54:45,094 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:54:45,099 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:54:45,100 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:55:43,910 [Worker-0: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:55:43,911 [Worker-0: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:55:43,916 [Worker-0: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:55:43,918 [Worker-0: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:56:02,685 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:56:02,686 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:56:02,690 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:56:02,692 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:56:29,521 [Worker-4: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:56:29,522 [Worker-4: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:56:29,526 [Worker-4: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:56:29,528 [Worker-4: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:56:37,819 [Worker-6: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:56:37,821 [Worker-6: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:56:37,825 [Worker-6: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:56:37,826 [Worker-6: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:56:59,505 [Worker-13: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:56:59,507 [Worker-13: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:56:59,510 [Worker-13: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:56:59,512 [Worker-13: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:57:07,252 [Worker-9: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:57:07,254 [Worker-9: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:57:07,257 [Worker-9: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:57:07,259 [Worker-9: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:58:35,840 [Worker-7: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:58:35,841 [Worker-7: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:58:35,845 [Worker-7: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:58:35,846 [Worker-7: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:59:07,384 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:59:07,386 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:59:07,389 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:59:07,390 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 09:59:28,308 [Worker-6: Launching DeleteStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:59:28,310 [Worker-6: Launching DeleteStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 09:59:28,314 [Worker-6: Launching DeleteStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 09:59:28,315 [Worker-6: Launching DeleteStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 10:19:44,037 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 10:19:44,039 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 10:19:44,043 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 10:19:44,044 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 10:19:58,752 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 10:19:58,754 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 10:19:58,757 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 10:19:58,759 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 10:20:29,840 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 10:20:29,842 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 10:20:29,850 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 10:20:29,853 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 10:20:41,977 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 10:20:41,978 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 10:20:41,982 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 10:20:41,983 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 10:31:29,752 [Worker-19: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 10:31:29,754 [Worker-19: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 10:31:29,757 [Worker-19: Launching ViewStudent] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 10:31:29,758 [Worker-19: Launching ViewStudent] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-02 10:32:11,350 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 10:32:11,352 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 10:32:11,355 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 10:32:11,356 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:15:58,848 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-03 09:18:39,163 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [638])
+2025-04-03 09:18:39,166 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-04-03 09:18:39,166 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-04-03 09:18:39,167 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-04-03 09:18:39,167 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-04-03 09:18:39,167 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-04-03 09:18:39,167 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-04-03 09:18:39,168 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-04-03 09:18:39,168 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-04-03 09:18:39,168 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-04-03 09:18:39,168 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-04-03 09:18:39,169 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-04-03 09:18:39,169 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-04-03 09:18:39,169 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-04-03 09:18:39,169 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-04-03 09:18:39,169 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-04-03 09:18:39,170 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-04-03 09:18:39,170 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-04-03 09:18:39,171 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-04-03 09:18:39,171 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-04-03 09:18:39,171 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-04-03 09:18:39,171 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-04-03 09:18:39,172 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-04-03 09:18:39,172 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-04-03 09:18:39,172 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-04-03 09:18:39,172 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-04-03 09:18:39,173 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-04-03 09:18:39,173 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-04-03 09:18:39,173 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-04-03 09:18:39,173 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-04-03 09:18:39,174 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-04-03 09:18:39,174 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-04-03 09:18:39,174 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-04-03 09:18:39,174 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-04-03 09:18:39,174 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-04-03 09:18:39,175 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-04-03 09:18:39,175 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-04-03 09:18:39,175 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-04-03 09:18:39,175 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-04-03 09:18:39,176 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-04-03 09:18:39,176 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-04-03 09:18:39,176 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-04-03 09:18:39,176 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-04-03 09:18:39,177 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-04-03 09:18:39,177 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-04-03 09:18:39,179 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.1.jre [16])
+2025-04-03 09:18:39,179 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\com.google.guava_33.3.1.jre.jar
+2025-04-03 09:18:39,180 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [1005])
+2025-04-03 09:18:39,180 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2025-04-03 09:18:39,180 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [34])
+2025-04-03 09:18:39,180 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-04-03 09:18:39,180 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [29])
+2025-04-03 09:18:39,181 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2025-04-03 09:18:39,181 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [75])
+2025-04-03 09:18:39,181 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2025-04-03 09:18:39,181 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [78])
+2025-04-03 09:18:39,182 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-04-03 09:18:39,182 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [17])
+2025-04-03 09:18:39,183 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Administrator\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-04-03 09:18:39,187 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ADMINI~1\AppData\Local\Temp\m2e-archetypeGenerator6059131508741260149":
+2025-04-03 09:18:39,193 [Worker-9: Launching mavenrun-d9646479-5dc6-4681-8287-adeb9882bff6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.5 -DgroupId=com.tops -DartifactId=A002_HibernateWeb -Dversion=0.0.1-SNAPSHOT -Dpackage=com.tops.A002_HibernateWeb -DoutputDirectory=C:\Chintan_wok\java\16Jan_2025_java -Dstyle.color=always -U archetype:generate
+2025-04-03 09:18:51,333 [Worker-7: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\pom.xml
+2025-04-03 09:18:52,129 [Worker-7: Creating maven-archetype-webapp] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tops:A002_HibernateWeb:0.0.1-SNAPSHOT @ C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\pom.xml.
+2025-04-03 09:18:53,620 [Worker-7: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /A002_HibernateWeb/src/main/java
+2025-04-03 09:18:53,623 [Worker-7: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /A002_HibernateWeb/src/main/resources
+2025-04-03 09:18:53,624 [Worker-7: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /A002_HibernateWeb/src/test/java
+2025-04-03 09:18:53,625 [Worker-7: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /A002_HibernateWeb/src/test/resources
+2025-04-03 09:18:55,364 [Worker-7: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2025-04-03 09:18:56,252 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\src\main\resources
+2025-04-03 09:18:56,261 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\src\test\resources
+2025-04-03 09:19:11,013 [Worker-3: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 09:19:29,718 [Worker-5: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tops:A002_HibernateWeb:0.0.1-SNAPSHOT @ C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\pom.xml.
+2025-04-03 09:19:29,906 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 09:19:29,948 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 09:19:30,282 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\src\main\resources
+2025-04-03 09:19:30,288 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\src\test\resources
+2025-04-03 09:19:30,288 [Worker-5: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of A002_HibernateWeb
+2025-04-03 09:19:30,290 [Worker-5: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for A002_HibernateWeb
+2025-04-03 09:19:53,978 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:19:53,983 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:20:00,694 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:20:00,704 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:20:41,965 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:20:41,972 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:23:23,204 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:23:23,210 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:24:07,795 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:24:07,799 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:24:38,244 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:24:38,251 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:24:49,135 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:24:49,139 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:24:57,159 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:24:57,165 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:25:00,659 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:25:00,663 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:25:27,649 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:25:27,653 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:26:52,090 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:26:52,094 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:29:04,599 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:29:04,603 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:30:20,042 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:30:20,046 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:30:28,934 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:30:28,938 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:30:45,902 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:30:45,907 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:31:13,876 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:31:13,880 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:32:42,346 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:32:42,351 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:32:58,413 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:32:58,419 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:35:20,939 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:35:20,944 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:37:14,810 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:37:14,814 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:37:57,716 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:37:57,720 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:38:05,180 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:38:05,184 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:38:55,721 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:38:55,726 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:40:32,139 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tops:A002_HibernateWeb:0.0.1-SNAPSHOT @ C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\pom.xml.
+2025-04-03 09:40:32,363 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 09:40:32,411 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 09:40:32,754 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:40:32,766 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:40:32,766 [Worker-7: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of A002_HibernateWeb
+2025-04-03 09:40:32,766 [Worker-7: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for A002_HibernateWeb
+2025-04-03 09:40:33,926 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:40:33,933 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:41:27,026 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tops:A002_HibernateWeb:0.0.1-SNAPSHOT @ C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\pom.xml.
+2025-04-03 09:41:27,256 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:pom:6.2.16.Final has been relocated to org.hibernate.orm:hibernate-core:pom:6.2.16.Final
+2025-04-03 09:41:27,257 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 09:41:27,292 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:pom:6.2.16.Final has been relocated to org.hibernate.orm:hibernate-core:pom:6.2.16.Final
+2025-04-03 09:41:27,294 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 09:41:27,652 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:41:27,657 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:41:27,658 [Worker-12: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of A002_HibernateWeb
+2025-04-03 09:41:27,658 [Worker-12: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for A002_HibernateWeb
+2025-04-03 09:41:27,932 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:41:27,939 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:43:39,400 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tops:A002_HibernateWeb:0.0.1-SNAPSHOT @ C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\pom.xml.
+2025-04-03 09:43:39,533 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 09:43:39,567 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 09:43:39,862 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:43:39,872 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:43:39,873 [Worker-15: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of A002_HibernateWeb
+2025-04-03 09:43:39,873 [Worker-15: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for A002_HibernateWeb
+2025-04-03 09:43:40,985 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:43:40,992 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:46:01,385 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:46:01,389 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:46:09,259 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:46:09,262 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:47:05,371 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:47:05,376 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:47:29,186 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:47:29,191 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:47:50,567 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:47:50,571 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:49:02,298 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:49:02,303 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:51:34,341 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:51:34,345 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:52:29,993 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:52:29,997 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:52:43,203 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:52:43,206 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:54:03,504 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:54:03,508 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:55:09,973 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:55:09,976 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:55:18,146 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:55:18,149 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:55:27,541 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:55:27,544 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:57:35,624 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tops:A002_HibernateWeb:0.0.1-SNAPSHOT @ C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\pom.xml.
+2025-04-03 09:57:35,754 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 09:57:35,786 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 09:57:36,066 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 09:57:36,071 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:57:36,072 [Worker-14: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of A002_HibernateWeb
+2025-04-03 09:57:36,072 [Worker-14: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for A002_HibernateWeb
+2025-04-03 09:57:36,411 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 09:57:36,418 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 09:57:37,108 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2-sources.jar
+2025-04-03 09:57:37,150 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2-sources.jar
+2025-04-03 09:57:37,158 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.2
+2025-04-03 10:00:31,879 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:00:31,885 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:03:23,984 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tops:A002_HibernateWeb:0.0.1-SNAPSHOT @ C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\pom.xml.
+2025-04-03 10:03:24,229 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.pom
+2025-04-03 10:03:24,237 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.pom
+2025-04-03 10:03:24,246 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 10:03:24,325 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar
+2025-04-03 10:03:24,440 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar
+2025-04-03 10:03:24,448 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 10:03:24,714 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:03:24,723 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:03:24,724 [Worker-18: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of A002_HibernateWeb
+2025-04-03 10:03:24,724 [Worker-18: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for A002_HibernateWeb
+2025-04-03 10:03:25,101 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:03:25,108 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:03:25,688 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0-sources.jar
+2025-04-03 10:03:25,815 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0-sources.jar
+2025-04-03 10:03:25,820 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.servlet:jakarta.servlet-api:6.1.0
+2025-04-03 10:06:25,396 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tops:A002_HibernateWeb:0.0.1-SNAPSHOT @ C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\pom.xml.
+2025-04-03 10:06:25,687 [Worker-27: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl/3.0.2/jakarta.servlet.jsp.jstl-3.0.2.pom
+2025-04-03 10:06:25,691 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl:jar:3.0.2 is missing, no dependency information available
+2025-04-03 10:06:25,694 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 10:06:25,788 [Worker-27: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl/3.0.2/jakarta.servlet.jsp.jstl-3.0.2.jar
+2025-04-03 10:06:25,798 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 10:06:26,090 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:06:26,095 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:06:26,096 [Worker-27: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of A002_HibernateWeb
+2025-04-03 10:06:26,096 [Worker-27: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for A002_HibernateWeb
+2025-04-03 10:06:27,312 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl/3.0.2/jakarta.servlet.jsp.jstl-3.0.2-sources.jar
+2025-04-03 10:06:27,318 [Worker-7: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl:3.0.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl:jar:sources:3.0.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-04-03 10:06:34,510 [Worker-28: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tops:A002_HibernateWeb:0.0.1-SNAPSHOT @ C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\pom.xml.
+2025-04-03 10:06:34,625 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 10:06:34,864 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:06:34,869 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:06:34,869 [Worker-28: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of A002_HibernateWeb
+2025-04-03 10:06:34,869 [Worker-28: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for A002_HibernateWeb
+2025-04-03 10:06:35,976 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:06:35,982 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:07:33,442 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tops:A002_HibernateWeb:0.0.1-SNAPSHOT @ C:\Chintan_wok\java\16Jan_2025_java\A002_HibernateWeb\pom.xml.
+2025-04-03 10:07:33,551 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 10:07:33,584 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-03 10:07:33,801 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:07:33,806 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:07:33,806 [Worker-18: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of A002_HibernateWeb
+2025-04-03 10:07:33,806 [Worker-18: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for A002_HibernateWeb
+2025-04-03 10:07:34,305 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:07:34,312 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:07:44,582 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:07:44,585 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:08:34,948 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:08:34,952 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:09:15,360 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:09:15,364 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:09:39,858 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:09:39,861 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:11:15,441 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:11:15,445 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:14:09,900 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:14:09,904 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:16:46,904 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:16:46,908 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:17:11,611 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:17:11,615 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:17:31,941 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:17:31,945 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:17:59,112 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:17:59,117 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:18:03,638 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:18:03,643 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:18:53,214 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:18:53,218 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:19:12,278 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:19:12,283 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:19:45,619 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:19:45,622 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:20:10,007 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:20:10,010 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:21:53,521 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:21:53,525 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:23:47,973 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:23:47,977 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:23:53,434 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:23:53,438 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:25:05,198 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:25:05,201 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:25:39,596 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:25:39,600 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:25:55,771 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:25:55,775 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:29:19,370 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:29:19,374 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:29:31,918 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:29:31,922 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:29:55,256 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 10:29:55,259 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:30:41,675 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:30:41,679 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:31:13,619 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:31:13,622 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:31:24,671 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:31:24,675 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:31:44,463 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:31:44,468 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:35:27,426 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:35:27,431 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:36:58,208 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:36:58,213 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-03 10:39:22,925 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 10:39:22,930 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-04 09:28:24,262 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-04 09:33:44,513 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-04-04 09:33:45,047 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-04 09:33:45,059 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-04 09:36:26,721 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-04 09:36:26,729 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-04 09:37:24,757 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-04 09:37:24,763 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-04 09:39:41,235 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-04 09:39:41,240 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-04 09:41:43,720 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-04 09:41:43,727 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-04 09:42:16,583 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-04 09:42:16,592 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-04 09:42:32,879 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-04 09:42:32,884 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes

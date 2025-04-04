@@ -15,6 +15,8 @@ public class Student {
 	
 	@Column(name="email")
 	String email;
+	
+	
 
 	public int getId() {
 		return id;
