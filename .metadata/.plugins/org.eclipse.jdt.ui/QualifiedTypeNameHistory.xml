@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
-    <fullyQualifiedTypeName name="com.Validator"/>
-    <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebFilter"/>
-    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpFilter"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
-    <fullyQualifiedTypeName name="dao.UserDao"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="javax.mail.Session"/>
@@ -43,14 +33,7 @@
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
     <fullyQualifiedTypeName name="com.Student"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.CollectionTable"/>
-    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
-    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
-    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
-    <fullyQualifiedTypeName name="org.hibernate.Session"/>
-    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
@@ -60,4 +43,21 @@
     <fullyQualifiedTypeName name="jakarta.servlet.annotation.MultipartConfig"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.Part"/>
     <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.protocol.ReadAheadInputStream"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="java.awt.datatransfer.Transferable"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="com.Citizen"/>
+    <fullyQualifiedTypeName name="com.AdharCard"/>
 </qualifiedTypeNameHistroy>
