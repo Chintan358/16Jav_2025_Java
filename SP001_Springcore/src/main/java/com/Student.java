@@ -10,11 +10,30 @@ public class Student {
 	String email;
 	List<String> subject;
 	Set<String> lang;	
+	Address address;
+	List<Subject> subjects;
 	
+	public Address getAddress() {
+		return address;
+	}
+
+
+
+
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+
+
+
+
+
 	public Set<String> getLang() {
 		return lang;
 	}
-
+	
+	
 
 
 
@@ -92,6 +111,27 @@ public class Student {
 		{
 			System.out.println(l);
 		}
+		address.display();
+		for(Subject sub  :subjects)
+		{
+			sub.display();
+		}
+	}
+
+
+
+
+
+	public List<Subject> getSubjects() {
+		return subjects;
+	}
+
+
+
+
+
+	public void setSubjects(List<Subject> subjects) {
+		this.subjects = subjects;
 	}
 	
 }

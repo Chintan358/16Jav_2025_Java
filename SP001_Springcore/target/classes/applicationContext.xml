@@ -8,11 +8,12 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
   
-	<bean name="std" class="com.Student">
+	<bean name="std" class="com.Student" autowire="byType">
 	<property name="id" value="10"></property>
 	<property name="name" value="Roshan"></property>
 	<property name="email" value="roshan@gmail.com"></property>
 	<property name="subject">
+	
 	<list>
 		<value>Java</value>
 		<value>Php</value>
@@ -28,9 +29,31 @@
 		<value>English</value>
 	</set>
 	</property>
+	<!-- <property name="address" ref="address"></property> -->
+	<!-- <property name="subjects">
+	<list>
+		<ref bean="sub1"/>
+		<ref bean="sub2"/>
+	</list>
+	</property> -->
 	</bean>
 
 
+	<bean name="address" class="com.Address">
+	<property name="city" value="surat"></property>
+	<property name="state" value="Gujarat"></property>
+	<property name="country" value="India"></property>
+	</bean>
+	
+	<bean name="sub1" class="com.Subject">
+	<property name="name" value="java"></property>
+	<property name="marks" value="50"></property>
+	</bean>
+	
+	<bean name="sub2" class="com.Subject">
+	<property name="name" value="python"></property>
+	<property name="marks" value="51"></property>
+	</bean>
 
 
 
