@@ -6551,3 +6551,804 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 10:22:03.783
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2025-04-14 09:30:08.099 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-14 09:30:13.095
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-14 09:30:22.744
+!MESSAGE Logback config file: C:\Chintan_wok\java\16Jan_2025_java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-14 09:30:23.537
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-14 09:30:23.537
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-14 09:30:23.926
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-14 09:30:23.926
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-14 09:30:33.570
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-21\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1744603233568
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\Administrator\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-14 09:30:33.571
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-14 09:30:33.582
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11544
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-14 09:30:35.460
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-14 09:30:36.053
+!MESSAGE Boot project ADDED: SP001_Springcore
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-14 09:30:36.054
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-14 09:30:36.057
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-14 09:30:36.057
+!MESSAGE Boot project ADDED: SP002_SpringCore_Annotation
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:31:41.511
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:31:41.548
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:31:56.424
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:31:56.431
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:32:25.800
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:32:25.806
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:32:59.587
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:32:59.592
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:33:02.756
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:33:02.763
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:33:10.124
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:33:10.131
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:33:32.218
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:33:32.223
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:33:45.564
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:33:45.570
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:33:51.814
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:33:51.819
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:34:01.620
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:34:01.626
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:34:20.530
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:34:20.535
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:37:06.759
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:37:06.764
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface 2 0 2025-04-14 09:37:10.798
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-14 09:37:10.798
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:37:43.362
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:37:43.370
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:38:04.566
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:38:04.571
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:38:09.240
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:38:09.246
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:39:13.603
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:39:13.612
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:40:06.552
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:40:06.557
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:40:10.487
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:40:10.492
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:40:27.640
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:40:27.646
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:40:33.351
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:40:33.355
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:40:36.920
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:40:36.925
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:41:38.127
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:41:38.131
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:42:11.261
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:42:11.266
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:42:14.575
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:42:14.580
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:43:09.486
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:43:09.490
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:43:43.577
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-14 09:43:43.581
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-14 09:46:09.795
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-14 09:46:35.536
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-14 09:47:01.348
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-14 09:47:01.349
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-14 09:47:01.350
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-14 09:47:01.351
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-14 09:47:01.361
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-14 09:47:01.366
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-14 09:47:24.302
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-14 09:47:24.302
+!MESSAGE Boot project ADDED: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-14 09:48:27.618
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-14 09:48:27.773
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-14 09:48:58.642
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-04-14 16:04:35.691
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2025-04-15 09:11:34.968 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-15 09:11:44.761
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-04-15 09:12:13.477
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-15 09:12:15.258
+!MESSAGE Logback config file: C:\Chintan_wok\java\16Jan_2025_java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-15 09:12:16.079
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-15 09:12:16.079
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-15 09:12:16.485
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-15 09:12:16.485
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-15 09:12:25.063
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-21\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1744688545062
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\Administrator\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 09:12:25.064
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-15 09:12:25.075
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 15204
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-15 09:12:26.619
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 09:12:26.753
+!MESSAGE Boot project ADDED: SP001_Springcore
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 09:12:26.754
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 09:12:26.755
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 09:12:26.756
+!MESSAGE Boot project ADDED: SP002_SpringCore_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 09:12:26.756
+!MESSAGE Boot project ADDED: SP003_SpringMVC
+!SESSION 2025-04-15 09:13:27.148 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-15 09:13:31.943
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-15 09:13:38.262
+!MESSAGE Logback config file: C:\Chintan_wok\java\16Jan_2025_java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-15 09:13:38.962
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-15 09:13:38.962
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-15 09:13:39.308
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-15 09:13:39.308
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-15 09:13:44.491
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-21\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1744688624490
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\Administrator\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 09:13:44.492
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-15 09:13:44.500
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8904
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-15 09:13:45.969
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 09:13:46.252
+!MESSAGE Boot project ADDED: SP001_Springcore
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 09:13:46.252
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 09:13:46.255
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 09:13:46.257
+!MESSAGE Boot project ADDED: SP002_SpringCore_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 09:13:46.258
+!MESSAGE Boot project ADDED: SP003_SpringMVC
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:34.241
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:34.716
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:34.732
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:35.940
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:36.006
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:36.011
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:36.560
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:38.284
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:38.327
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:38.361
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:39.372
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:39.425
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:39.434
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:39.739
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:39.788
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:39.803
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:40.175
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:42.759
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:42.764
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:43.549
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:43.563
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:43.762
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:14:43.766
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-15 09:14:45.495
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-15 09:14:45.497
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-15 09:14:45.498
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-15 09:14:45.499
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-15 09:14:45.511
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-15 09:14:45.516
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jface 2 0 2025-04-15 09:17:28.581
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-15 09:17:28.581
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-15 10:16:19.322
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:72)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:229)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-15 10:16:50.496
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:72)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:229)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:16:52.448
+!MESSAGE The artifact org.hibernate:hibernate-core:pom:6.2.0.Final has been relocated to org.hibernate.orm:hibernate-core:pom:6.2.0.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:16:52.549
+!MESSAGE The artifact org.hibernate:hibernate-core:pom:6.2.0.Final has been relocated to org.hibernate.orm:hibernate-core:pom:6.2.0.Final
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:16:55.609
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:16:55.833
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-15 10:18:19.893
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:72)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:229)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:18:21.907
+!MESSAGE The artifact org.hibernate:hibernate-core:pom:6.2.0.Final has been relocated to org.hibernate.orm:hibernate-core:pom:6.2.0.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:18:21.908
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:18:23.278
+!MESSAGE The artifact org.hibernate:hibernate-core:pom:6.2.0.Final has been relocated to org.hibernate.orm:hibernate-core:pom:6.2.0.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:18:23.279
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:18:23.659
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:18:24.105
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:18:26.033
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:25:19.279
+!MESSAGE The artifact org.hibernate:hibernate-core:pom:6.2.0.Final has been relocated to org.hibernate.orm:hibernate-core:pom:6.2.0.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:25:19.281
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:25:19.349
+!MESSAGE The artifact org.hibernate:hibernate-core:pom:6.2.0.Final has been relocated to org.hibernate.orm:hibernate-core:pom:6.2.0.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:25:19.358
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:25:19.996
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:30:00.263
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:30:00.313
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:30:00.841
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jakarta.transaction-api-2.0.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jboss-logging-3.5.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/hibernate-commons-annotations-6.0.6.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jandex-3.0.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jakarta.xml.bind-api-4.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jakarta.activation-api-2.1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jaxb-runtime-4.0.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jaxb-core-4.0.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/angus-activation-2.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/txw2-4.0.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/istack-commons-runtime-4.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jakarta.inject-api-2.0.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:30:03.498
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/antlr4-runtime-4.10.1.jar. May be locked by another process.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:32:31.901
+!MESSAGE The artifact org.hibernate:hibernate-core:pom:6.2.0.Final has been relocated to org.hibernate.orm:hibernate-core:pom:6.2.0.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:32:31.902
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:32:32.481
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/hibernate-core-5.6.15.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jboss-logging-3.4.3.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/javax.persistence-api-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/antlr-2.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jandex-2.4.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/javax.activation-api-1.2.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jaxb-api-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/jaxb-runtime-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/txw2-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/istack-commons-runtime-3.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/stax-ex-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-15 10:32:34.757
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP003_SpringMVC/WEB-INF/lib/FastInfoset-1.2.15.jar. May be locked by another process.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:34:22.179
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:34:22.228
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:34:22.283
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:34:22.871
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:34:22.951
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:34:28.228
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:37:39.148
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:37:39.195
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:37:39.253
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:37:39.864
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:37:39.937
+!MESSAGE Classpath changed for project: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 10:37:44.608
+!MESSAGE Classpath changed for project: SP003_SpringMVC
