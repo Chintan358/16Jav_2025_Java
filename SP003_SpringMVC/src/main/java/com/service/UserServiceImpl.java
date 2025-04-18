@@ -1,5 +1,7 @@
 package com.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +20,24 @@ public class UserServiceImpl implements UserService {
 		dao.addOrUpdateUser(user);
 		
 		
+	}
+
+	@Override
+	public List<User> allusers() {
+		// TODO Auto-generated method stub
+		return dao.allusers();
+	}
+
+	@Override
+	public User userById(int id) {
+		// TODO Auto-generated method stub
+		return dao.userById(id);
+	}
+
+	@Override
+	public void deleteUser(int id) {
+		// TODO Auto-generated method stub
+		dao.deleteUser(id);
 	}
 	
 	

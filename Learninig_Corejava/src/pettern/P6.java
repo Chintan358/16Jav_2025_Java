@@ -25,7 +25,7 @@ public class P6 {
 			
 			for(int i=1;i<=starCount;i++)
 			{
-				System.out.print("* ");
+				System.out.print(i+" ");
 			}
 			System.out.println();
 			starCount++;
