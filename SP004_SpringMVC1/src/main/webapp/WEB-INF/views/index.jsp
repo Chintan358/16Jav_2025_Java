@@ -11,6 +11,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
 	
@@ -25,6 +26,7 @@
 		<div class="form-group">
 		<form:label path="name">Name</form:label>
 		<form:input path="name" class="form-control"/>
+		<form:errors path="name"></form:errors>
 		</div>
 		<br>
 		<div class="form-group">

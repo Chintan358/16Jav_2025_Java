@@ -1,8 +1,13 @@
 package com.controller;
 
+
+
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -10,6 +15,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.model.Student;
 import com.service.StudentService;
+
+import jakarta.validation.Valid;
+
+
+
+
 
 @Controller
 public class StudentController {
@@ -26,10 +37,19 @@ public class StudentController {
 	}
 	
 	@PostMapping("/addStudent")
-	public String addStudent(@ModelAttribute("student") Student std)
+	public String addStudent(@Valid @ModelAttribute("student") Student std,BindingResult br,Model model)
 	{
-		int i = studentService.addOrUpdateStudent(std);
-		return "redirect:/";
+		if(br.hasErrors())
+		{
+			model.addAttribute("student",std);
+			model.addAttribute("students", studentService.allStudents());
+			return "index";
+		}
+		else
+		{
+			int i = studentService.addOrUpdateStudent(std);
+			return "redirect:/";
+		}
 	}
 	
 	@GetMapping("/delete")

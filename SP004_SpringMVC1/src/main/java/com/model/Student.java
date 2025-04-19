@@ -1,6 +1,12 @@
 package com.model;
 
-import javax.persistence.*;
+
+
+
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
+
 
 @Entity
 @Table(name="student")
@@ -10,10 +16,14 @@ public class Student {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="id")
 	private int id;
+	
+	@NotBlank(message = "Name should not be blank")
 	@Column(name="name",length = 20)
 	private String name;
+	
 	@Column(name="email", length = 50)
 	private String email;
+	
 	@Column(name="phone",length = 20)
 	private String phone;
 	public int getId() {

@@ -9340,3 +9340,1914 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-18 10:44:59.524
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2025-04-19 09:33:04.924 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-19 09:33:13.019
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-19 09:33:20.776
+!MESSAGE Logback config file: C:\Chintan_wok\java\16Jan_2025_java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-19 09:33:21.764
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-19 09:33:21.764
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-19 09:33:22.224
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-19 09:33:22.224
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-19 09:33:29.572
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-19 09:33:29.573
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-19 09:33:29.575
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-19 09:33:29.576
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-19 09:33:29.589
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-21\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745035409587
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\Administrator\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:33:29.589
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-19 09:33:29.602
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 15348
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-19 09:33:29.612
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-04-19 09:33:29.618
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-19 09:33:31.107
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:33:31.597
+!MESSAGE Boot project ADDED: SP001_Springcore
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:33:31.597
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:33:31.600
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:33:31.605
+!MESSAGE Boot project ADDED: SP002_SpringCore_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:33:31.624
+!MESSAGE Boot project ADDED: SP003_SpringMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:33:31.625
+!MESSAGE Boot project ADDED: SP004_SpringMVC1
+
+!ENTRY org.eclipse.jface 2 0 2025-04-19 09:34:36.745
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-19 09:34:36.745
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:37:29.703
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:37:30.534
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:37:31.662
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:37:31.731
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:37:32.185
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:37:32.237
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:38:28.456
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:38:28.471
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:38:29.688
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:38:29.696
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-19 09:38:30.732
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-19 09:38:31.013
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "C:\Users\Administrator\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.2.4.202411181846\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-19 09:38:31.039
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-19 09:38:35.097
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:377)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:835)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:68)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:852)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5740)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5424)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1224)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1220)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1703)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4854)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:347)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4732)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5177)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3788)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-19 09:38:35.150
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:377)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:68)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:852)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5740)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5424)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1224)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1220)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1703)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4854)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:347)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4732)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5177)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3788)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-19 09:38:35.874
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:377)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:835)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:68)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:852)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5740)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5424)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1224)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1220)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1703)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4854)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:347)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4732)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5177)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3788)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-19 09:38:35.927
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:377)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:68)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:852)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5740)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5424)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1224)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1220)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1703)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4854)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:347)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4732)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5177)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3788)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:38:38.039
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:38:38.044
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:39:12.943
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:39:12.950
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:39:42.108
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:39:42.113
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:41:09.931
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:41:09.936
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:41:27.988
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:41:27.994
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:41:42.592
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:41:42.597
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-19 09:46:28.344
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:72)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:229)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:46:30.162
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:46:30.883
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:46:31.281
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:46:32.158
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:46:32.166
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:46:32.198
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:46:32.323
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:46:33.201
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:46:33.228
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-19 09:46:33.426
+!MESSAGE Could not get if the workspace folder capability is supported due to timeout after 1 second
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:694)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:666)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$17(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:474)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappersAsync(LanguageServiceAccessor.java:461)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:332)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:169)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:145)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:29)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:46:33.982
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-19 09:46:34.340
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:48:04.036
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:48:04.041
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:49:19.179
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:49:19.184
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:50:21.198
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:50:21.205
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-19 09:50:21.896
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:51:06.541
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:51:06.546
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:51:49.086
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:51:49.091
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:53:47.297
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:53:47.303
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:56:13.308
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:56:13.313
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:59:57.533
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:59:57.739
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:59:57.921
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:59:58.777
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:59:58.784
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:59:58.819
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 09:59:58.939
+!MESSAGE C:\Users\Administrator\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 09:59:58.943
+!MESSAGE C:\Users\Administrator\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 09:59:58.944
+!MESSAGE C:\Users\Administrator\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 09:59:58.945
+!MESSAGE C:\Users\Administrator\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 09:59:58.945
+!MESSAGE C:\Users\Administrator\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 09:59:58.946
+!MESSAGE C:\Users\Administrator\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 09:59:58.947
+!MESSAGE C:\Users\Administrator\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar is not on its project's build path
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:59:59.152
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:59:59.500
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 09:59:59.508
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 09:59:59.978
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-19 10:04:22.421
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:72)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:229)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:04:24.786
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:04:25.158
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:04:25.479
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:04:26.168
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:04:26.174
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:04:26.359
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:04:26.460
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:04:26.752
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:04:26.761
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:04:27.836
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:05:02.754
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:05:02.759
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:05:27.006
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:05:27.011
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-19 10:05:34.335
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:05:35.478
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:82)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:54)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:353)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:332)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:288)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:05:38.181
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:05:38.186
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:08:42.214
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:08:42.290
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:08:42.503
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:08:43.204
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:08:43.211
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:08:43.247
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:08:43.550
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:08:43.807
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:08:43.815
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:08:44.370
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:09:11.582
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:09:11.586
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:09:18.452
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:09:18.457
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:09:27.204
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:09:27.209
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:10:27.421
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:10:27.426
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:10:51.233
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:10:51.564
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:10:51.851
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:10:52.530
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:10:52.535
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:10:52.565
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:10:52.840
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:10:53.296
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:10:53.303
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:10:53.887
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:11:44.967
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:11:44.972
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:12:07.750
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:12:07.755
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-19 10:12:08.244
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-19 10:30:46.208
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "C:\Users\Administrator\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.2.4.202411181846\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-19 10:30:46.212
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:30:46.214
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:30:46.229
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:30:46.263
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:30:46.292
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:30:46.303
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:31.905
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:31.930
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:31.943
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:31.957
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:31.968
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:40.126
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:40.139
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:40.151
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:40.164
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:40.176
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:41.941
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:41.954
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:41.967
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:41.978
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:41.991
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:43.313
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:43.336
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:43.348
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:43.365
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:43.379
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:44.654
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:44.670
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:44.684
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:44.697
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:44.708
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:46.342
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:46.364
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:46.376
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:46.387
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:46.400
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:48.739
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:48.755
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:48.771
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:48.783
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:48.795
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:49.932
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:49.946
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:49.960
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:49.972
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:49.985
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:51.854
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:51.876
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:51.891
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:51.912
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:34:51.921
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:35:03.296
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:35:03.319
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:35:03.340
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:35:03.354
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:35:03.367
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:35:04.426
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:35:04.448
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:35:04.462
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:35:04.477
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:35:04.490
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:37:07.516
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:37:07.530
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:37:07.543
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:37:07.555
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:37:07.570
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:40:01.481
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:40:01.495
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:40:01.507
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:40:01.519
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:40:01.532
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:40:56.662
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:40:56.673
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:40:56.686
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:40:56.697
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:40:56.712
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:40:57.080
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:40:57.084
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:00.269
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:00.282
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:00.294
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:00.307
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:00.319
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:02.646
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:02.661
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:02.673
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:02.686
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:02.699
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:07.451
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:07.465
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:07.479
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:07.489
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:41:07.502
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:41:07.954
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:41:07.958
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:05.650
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:05.671
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:05.687
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:05.699
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:05.713
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:07.108
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:07.127
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:07.141
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:07.152
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:07.165
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:09.633
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:09.646
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:09.657
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:09.702
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:09.702
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:43:11.992
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:43:11.996
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:59.382
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:59.393
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:59.405
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:59.419
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:43:59.430
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:43:59.553
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:43:59.558
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:44:33.395
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:44:33.416
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:44:33.434
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:44:33.445
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:44:33.457
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:44:33.857
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:44:33.861
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:47:58.452
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:47:58.628
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:47:58.872
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:47:59.662
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:47:59.671
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:47:59.711
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:47:59.774
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:00.682
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:00.794
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:00.795
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:00.795
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:00.795
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:48:01.038
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:48:01.364
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:48:01.372
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:03.833
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:03.846
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:03.857
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:03.869
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:03.882
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:48:04.547
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:48:04.550
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:49.184
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-04-19 10:48:49.778
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>>\r\n\r\n<d... @109:3) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>>\r\n\r\n<d... @109:3) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2025-04-19 10:48:49.779
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>>\r\n\r\n<d... @109:3) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>>\r\n\r\n<d... @109:3) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 10:48:49.922
+!MESSAGE C:\Users\Administrator\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 10:48:49.924
+!MESSAGE C:\Users\Administrator\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 10:48:49.925
+!MESSAGE C:\Users\Administrator\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 10:48:49.925
+!MESSAGE C:\Users\Administrator\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 10:48:49.926
+!MESSAGE C:\Users\Administrator\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 10:48:49.926
+!MESSAGE C:\Users\Administrator\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2025-04-19 10:48:49.927
+!MESSAGE C:\Users\Administrator\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar is not on its project's build path
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:50.456
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:50.469
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:50.487
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:50.507
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:48:50.515
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:48:51.010
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:48:51.010
+!MESSAGE Boot project REMOVED: SP004_SpringMVC1
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/spring-core-6.1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/spring-jcl-6.1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/spring-context-6.1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/spring-aop-6.1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/spring-beans-6.1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/spring-expression-6.1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/micrometer-observation-1.12.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/micrometer-commons-1.12.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/spring-webmvc-6.1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/hibernate-core-5.5.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jboss-logging-3.4.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/javax.persistence-api-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/javassist-3.27.0-GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/byte-buddy-1.10.22.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/antlr-2.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jandex-2.2.3.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/classmate-1.5.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/javax.activation-api-1.2.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jaxb-api-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jaxb-runtime-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/txw2-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/istack-commons-runtime-3.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/stax-ex-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/FastInfoset-1.2.15.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/hibernate-entitymanager-4.3.6.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/dom4j-1.6.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/xml-apis-1.0.b2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/spring-orm-6.1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/spring-jdbc-6.1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/spring-tx-6.1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/mysql-connector-j-8.0.32.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/protobuf-java-3.21.9.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jakarta.persistence-api-3.2.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-3.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jakarta.servlet-api-6.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jakarta.el-api-5.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/validation-api-2.0.1.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/hibernate-validator-6.0.13.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jakarta.el-3.0.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:48:51.396
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib. May be locked by another process.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-04-19 10:48:51.409
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>>\r\n\r\n<d... @109:3) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>>\r\n\r\n<d... @109:3) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2025-04-19 10:48:51.409
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>>\r\n\r\n<d... @109:3) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>>\r\n\r\n<d... @109:3) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:49:09.992
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:49:10.172
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:49:10.475
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:49:10.581
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:49:10.985
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:49:11.069
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:49:11.122
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:49:11.800
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:49:11.807
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:49:11.907
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:49:11.908
+!MESSAGE Boot project ADDED: SP004_SpringMVC1
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:49:12.622
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:49:12.663
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:49:12.665
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:49:12.666
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:49:12.723
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:49:51.842
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:49:51.852
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:50:05.211
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:50:05.215
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:51:38.091
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:51:45.923
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:51:47.942
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:51:53.354
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:51:57.135
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:51:57.211
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:51:57.211
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:51:58.293
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:51:58.293
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:51:58.709
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:51:58.717
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:51:58.718
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:51:58.718
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:51:58.719
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:51:58.994
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:51:59.001
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:51:59.032
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:51:59.087
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:52:01.379
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:52:01.682
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:52:01.691
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/hibernate-core-5.5.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jboss-logging-3.4.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/javax.persistence-api-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/javassist-3.27.0-GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/byte-buddy-1.10.22.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/antlr-2.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jandex-2.2.3.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/javax.activation-api-1.2.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jaxb-api-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jaxb-runtime-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/txw2-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/istack-commons-runtime-3.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/stax-ex-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:03.273
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/FastInfoset-1.2.15.jar. May be locked by another process.
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:52:03.513
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:52:08.505
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:52:08.509
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:52:08.512
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:52:08.515
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-19 10:52:08.516
+!MESSAGE [Error]	Unexpected resource file:///C:/Chintan_wok/java/16Jan_2025_java/SP004_SpringMVC1/src/main/webapp/WEB-INF/spring-servlet.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:52:08.710
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:52:08.711
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:52:08.762
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:52:08.763
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:52:09.414
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:52:09.421
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 10:52:09.509
+!MESSAGE Classpath changed for project: SP004_SpringMVC1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:52:10.599
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:52:10.606
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/hibernate-core-5.5.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jboss-logging-3.4.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/javax.persistence-api-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/javassist-3.27.0-GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/byte-buddy-1.10.22.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/antlr-2.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jandex-2.2.3.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/javax.activation-api-1.2.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jaxb-api-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jaxb-runtime-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/txw2-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/istack-commons-runtime-3.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/stax-ex-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/FastInfoset-1.2.15.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/hibernate-entitymanager-4.3.6.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/dom4j-1.6.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/xml-apis-1.0.b2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2025-04-19 10:52:14.423
+!MESSAGE Could not delete C:/Chintan_wok/java/16Jan_2025_java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SP004_SpringMVC1/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar. May be locked by another process.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:53:53.495
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:53:53.499
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:55:02.837
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:55:02.841
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:55:08.653
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:55:08.657
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:55:59.352
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:55:59.356
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:56:56.464
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:56:56.469
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:57:01.726
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:57:01.730
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:58:18.062
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 10:58:18.066
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 11:00:18.691
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 11:00:18.697
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-19 11:00:51.110
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 11:01:10.006
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 11:01:10.011
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 11:03:15.360
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 11:03:15.365
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 11:05:20.813
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-19 11:05:20.819
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
