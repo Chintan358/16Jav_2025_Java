@@ -29,6 +29,7 @@ public class HomeController {
 	public Student addStudent(@RequestBody Student st)
 	{
 		Student createStudent = studentService.addStduent(st);
+		
 		return createStudent;
 	}
 	
