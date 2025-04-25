@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.dto.AuthorDto;
 import com.example.demo.model.Author;
 import com.example.demo.service.AuthorService;
 
@@ -22,17 +24,31 @@ public class AuthorController {
 		AuthorService authorService;
 		
 		@PostMapping
-		public ResponseEntity<Author> addAuthor(@RequestBody Author author)
+		public ResponseEntity<AuthorDto> addAuthor(@RequestBody Author author)
 		{
 			Author createdAuthor = authorService.addAuthor(author);
-			return new ResponseEntity<>(createdAuthor,HttpStatus.OK);
+			AuthorDto dtos = new AuthorDto();
+			dtos.setId(createdAuthor.getId());
+			dtos.setName(createdAuthor.getName());
+			return new ResponseEntity<>(dtos,HttpStatus.OK);
 		}
 		
 		@GetMapping
-		public ResponseEntity<List<Author>> viewAuthor()
+		public ResponseEntity<List<AuthorDto>> viewAuthor()
 		{
 			List<Author> allAuthors = authorService.allAuthors();
-			return new ResponseEntity<>(allAuthors,HttpStatus.OK);
+			List<AuthorDto> dtos = new ArrayList<>();
+			
+			for(Author a : allAuthors)
+			{
+				AuthorDto dt = new AuthorDto();
+				dt.setId(a.getId());
+				dt.setName(a.getName());
+				
+				dtos.add(dt);
+			}
+			
+			return new ResponseEntity<>(dtos,HttpStatus.OK);
 		}
 		
 }
