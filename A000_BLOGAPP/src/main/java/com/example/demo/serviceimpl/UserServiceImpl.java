@@ -2,10 +2,14 @@ package com.example.demo.serviceimpl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.example.demo.exception.ResourceNotFoundException;
 import com.example.demo.model.User;
 import com.example.demo.payload.UserDto;
 import com.example.demo.repo.UserRepo;
@@ -16,16 +20,15 @@ public class UserServiceImpl implements UserService {
 	
 	@Autowired
 	UserRepo userRepo;
+	
+	@Autowired
+	ModelMapper mapper;
 
 	@Override
 	public List<UserDto> allUser() {
 		
 		List<User> allusers = userRepo.findAll();
-		List<UserDto> dtos = new ArrayList<>();
-		for(User user : allusers)
-		{
-			dtos.add(this.userTodto(user));
-		}
+		List<UserDto> dtos = allusers.stream().map(user->this.userTodto(user)).collect(Collectors.toList());
 		return dtos;
 	}
 
@@ -39,40 +42,46 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public UserDto userById(int id) {
 		
-		return this.userTodto(userRepo.findById(id).orElseThrow());
+		return this.userTodto(userRepo.findById(id).orElseThrow(()->new ResourceNotFoundException("user", "id", id)));
 	}
 
 	@Override
 	public UserDto userUpdate(UserDto user, int id) {
-		user.setId(id);
-		return this.userTodto(userRepo.save(this.dtoToUser(user)));
+		
+		User u =  userRepo.findById(id).orElseThrow(()->new ResourceNotFoundException("user", "id", id));
+		u.setUsername(user.getUsername());
+		u.setPassword(user.getPassword());
+		u.setAbout(user.getAbout());
+		return this.userTodto(userRepo.save(u));
 	}
 
 	@Override
 	public void deletById(int id) {
 		
-		userRepo.deleteById(id);
+		User u =  userRepo.findById(id).orElseThrow(()->new ResourceNotFoundException("user", "id", id));
+		userRepo.delete(u);
 		
 	}
 	
 	public User dtoToUser(UserDto userdto)
 	{
-		User user = new User();
-		user.setId(userdto.getId());
-		user.setUsername(userdto.getUsername());
-		user.setPassword(userdto.getPassword());
-		user.setAbout(userdto.getAbout());
+      	User user = mapper.map(userdto, User.class);
+//		user.setId(userdto.getId());
+//		user.setUsername(userdto.getUsername());
+//		user.setPassword(userdto.getPassword());
+//		user.setAbout(userdto.getAbout());
 		return user;
 	}
 
 	
 	public UserDto userTodto(User user)
 	{
-		UserDto dto = new UserDto();
-		dto.setId(user.getId());
-		dto.setUsername(user.getUsername());
-		dto.setPassword(user.getPassword());
-		dto.setAbout(user.getAbout());
+		UserDto dto = mapper.map(user, UserDto.class);
+		
+//		dto.setId(user.getId());
+//		dto.setUsername(user.getUsername());
+//		dto.setPassword(user.getPassword());
+//		dto.setAbout(user.getAbout());
 		return dto;
 	}
 	

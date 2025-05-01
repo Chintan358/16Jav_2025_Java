@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.payload.APIResponse;
 import com.example.demo.payload.UserDto;
 import com.example.demo.service.UserService;
 
@@ -46,10 +47,11 @@ public class UserController {
 	}
 	
 	@DeleteMapping("/{userId}")
-	public ResponseEntity<String> deleteUser(@PathVariable("userId") int userId)
+	public ResponseEntity<APIResponse> deleteUser(@PathVariable("userId") int userId)
 	{
 		userService.deletById(userId);
-		return ResponseEntity.ok("User Deleted");
+		APIResponse repResponse = new APIResponse("User Delete successfully","true");
+		return new ResponseEntity<APIResponse>(repResponse,HttpStatus.OK);
 	}
 	
 	@PutMapping("/{userId}")
