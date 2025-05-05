@@ -1,5 +1,7 @@
 package com.example.demo.model;
 
+import java.util.List;
+
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -17,5 +19,9 @@ public class Category {
 	@Column(name="title",length = 20)
 	private String title;
 	
+	@OneToMany(mappedBy = "category",cascade = CascadeType.ALL)
+	List<Post> posts;
+	
+
 	
 }

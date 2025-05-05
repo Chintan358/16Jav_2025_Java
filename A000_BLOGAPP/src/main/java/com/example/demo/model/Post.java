@@ -1,9 +1,17 @@
 package com.example.demo.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Table(name="post")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Post {
 	
 	@Id
@@ -16,5 +24,11 @@ public class Post {
 	private String content;
 	@Column(name="image")
 	private String image;
+	
+	@ManyToOne
+	Category category;
+	
+	@ManyToOne
+	User user;
 	
 }

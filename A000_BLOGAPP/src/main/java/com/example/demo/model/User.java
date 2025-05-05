@@ -1,5 +1,7 @@
 package com.example.demo.model;
 
+import java.util.List;
+
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,6 +23,10 @@ public class User {
 	private String password;
 	@Column(name="about")
 	private String about;
+	
+	@OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
+	List<Post> posts;
+	
 	
 	
 }

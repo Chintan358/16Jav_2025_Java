@@ -3,12 +3,14 @@ package com.example.demo.service;
 import java.util.List;
 
 import com.example.demo.model.Post;
+import com.example.demo.payload.PostDto;
 
 public interface PostService {
 
-	public List<Post> allPost();
-	public Post addPost(Post post);
-	public Post postById(int id);
-	public Post postUpdate(Post post, int id);
+	public List<PostDto> allPost();
+	public PostDto addPost(PostDto post,int catid, int uid);
+	public PostDto postById(int id);
+	public PostDto postUpdate(PostDto post, int id,int catid, int uid);
+	public void deletePost(int id);
 	
 }
