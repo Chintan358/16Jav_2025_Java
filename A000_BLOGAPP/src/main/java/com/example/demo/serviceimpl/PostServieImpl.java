@@ -100,4 +100,33 @@ public class PostServieImpl implements PostService {
 		postRepo.delete(post);
 	}
 
+	@Override
+	public List<PostDto> postsbyCategory(int id) {
+		
+		Category cat = categoryRepo.findById(id)
+				.orElseThrow(()->new ResourceNotFoundException("Category","Id",id));
+
+		List<Post> allposts = postRepo.findByCategory(cat);
+		
+		
+		List<PostDto> dtos = allposts.stream().map(post->mapper.map(post, PostDto.class)).collect(Collectors.toList());
+		
+		return dtos;
+	}
+
+	@Override
+	public List<PostDto> postsByUsers(int id) {
+		// TODO Auto-generated method stub
+		User u = userRepo.findById(id)
+				.orElseThrow(()->new ResourceNotFoundException("User","Id",id));
+			
+		
+		List<Post> allposts = postRepo.findByUser(u);
+		
+		
+		List<PostDto> dtos = allposts.stream().map(post->mapper.map(post, PostDto.class)).collect(Collectors.toList());
+	
+		return dtos;
+	}
+
 }

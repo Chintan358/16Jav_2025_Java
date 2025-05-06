@@ -78,4 +78,23 @@ public class PostController {
 		postService.deletePost(pid);
 		return new ResponseEntity<>(new APIResponse("Post deleted","true"),HttpStatus.OK);
 	}
+	
+	
+	@GetMapping("/category/{cid}")
+	public ResponseEntity<List<PostDto>> postbycategory(@PathVariable("cid") int cid)
+	{
+		List<PostDto> allposts = postService.postsbyCategory(cid);
+		return new ResponseEntity<>(allposts,HttpStatus.OK);
+	}
+	
+	
+	@GetMapping("/user/{uid}")
+	public ResponseEntity<List<PostDto>> postbyuser(@PathVariable("uid") int uid)
+	{
+		List<PostDto> allposts = postService.postsByUsers(uid);
+		return new ResponseEntity<>(allposts,HttpStatus.OK);
+	}
+	
+	
+	
 }

@@ -1,5 +1,7 @@
 package com.example.demo.model;
 
+import java.util.List;
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -30,5 +32,8 @@ public class Post {
 	
 	@ManyToOne
 	User user;
+	
+	@OneToMany(mappedBy = "post",cascade = CascadeType.ALL)
+	List<Comment> comments;
 	
 }

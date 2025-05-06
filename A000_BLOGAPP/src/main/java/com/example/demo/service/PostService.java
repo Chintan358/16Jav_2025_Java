@@ -12,5 +12,7 @@ public interface PostService {
 	public PostDto postById(int id);
 	public PostDto postUpdate(PostDto post, int id,int catid, int uid);
 	public void deletePost(int id);
+	public List<PostDto> postsbyCategory(int id);
+	public List<PostDto> postsByUsers(int id);
 	
 }
