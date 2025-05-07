@@ -3,8 +3,13 @@ package com.example.demo.serviceimpl;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.exception.ResourceNotFoundException;
@@ -33,10 +38,22 @@ public class PostServieImpl implements PostService {
 	ModelMapper mapper;
 	
 	@Override
-	public List<PostDto> allPost() {
-		// TODO Auto-generated method stub
-		List<Post> all = postRepo.findAll();
+	public List<PostDto> allPost(int pageNumber, int pagesize,String sortBy, String sortType) {
 		
+		Sort sort;
+		if(sortType.equalsIgnoreCase("asc"))
+		{
+			sort = Sort.by(sortBy).ascending();
+		}
+		else
+		{
+			sort = Sort.by(sortBy).descending();
+		}
+		
+		Pageable  pageable = PageRequest.of(pageNumber, pagesize, sort );
+		Page<Post> postPage = postRepo.findAll(pageable);
+		
+		List<Post> all = postPage.getContent();
 		List<PostDto> collect = all.stream().map(e->mapper.map(e, PostDto.class)).collect(Collectors.toList());
 		return collect ;
 	}
@@ -127,6 +144,14 @@ public class PostServieImpl implements PostService {
 		List<PostDto> dtos = allposts.stream().map(post->mapper.map(post, PostDto.class)).collect(Collectors.toList());
 	
 		return dtos;
+	}
+
+	@Override
+	public List<PostDto> searchPost(String keyword) {
+		
+		List<Post> all = postRepo.findByTitleContaining(keyword);
+		List<PostDto> collect = all.stream().map(e->mapper.map(e, PostDto.class)).collect(Collectors.toList());
+		return collect ;
 	}
 
 }

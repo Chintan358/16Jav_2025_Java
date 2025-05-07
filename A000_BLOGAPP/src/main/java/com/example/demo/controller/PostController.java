@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.payload.APIResponse;
@@ -42,9 +43,14 @@ public class PostController {
 	}
 	
 	@GetMapping("/")
-	public ResponseEntity<List<PostDto>> allPosts()
+	public ResponseEntity<List<PostDto>> allPosts(
+			@RequestParam(value ="pageNumber", defaultValue ="1") int pageNumber,
+			@RequestParam(value="pageSize", defaultValue ="1") int pageSize,
+			@RequestParam(value = "sortBy", defaultValue = "id") String sortBy,
+			@RequestParam(value = "sortType", defaultValue = "asc") String sortType
+			)
 	{
-		List<PostDto> posts =  postService.allPost();
+		List<PostDto> posts =  postService.allPost(pageNumber,pageSize,sortBy,sortType);
 		return new ResponseEntity<>(posts,HttpStatus.OK );
 	}
 	
@@ -95,6 +101,12 @@ public class PostController {
 		return new ResponseEntity<>(allposts,HttpStatus.OK);
 	}
 	
+	@GetMapping("/search/{keyword}")
+	public ResponseEntity<List<PostDto>> searchPost(@PathVariable("keyword") String keyword)
+	{
+		List<PostDto> allpost = postService.searchPost(keyword);
+		return new ResponseEntity<>(allpost,HttpStatus.OK);
+	}
 	
 	
 }
