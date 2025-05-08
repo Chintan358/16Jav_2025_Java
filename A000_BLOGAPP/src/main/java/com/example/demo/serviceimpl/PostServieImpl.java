@@ -154,4 +154,16 @@ public class PostServieImpl implements PostService {
 		return collect ;
 	}
 
+	@Override
+	public PostDto addImage(PostDto postdto) {
+	
+		Post post = mapper.map(postdto, Post.class);
+		
+		
+		Post createdPost =  postRepo.save(post);
+		
+		return mapper.map(createdPost, PostDto.class);
+		
+	}
+
 }

@@ -15,4 +15,5 @@ public interface PostService {
 	public List<PostDto> postsbyCategory(int id);
 	public List<PostDto> postsByUsers(int id);
 	public List<PostDto> searchPost(String keyword);
+	public PostDto addImage(PostDto dto);
 }

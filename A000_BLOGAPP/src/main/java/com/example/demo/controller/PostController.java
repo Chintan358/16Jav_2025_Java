@@ -1,9 +1,15 @@
 package com.example.demo.controller;
 
+
+import java.io.InputStream;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.InputStreamResource;
+import org.springframework.core.io.Resource;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,11 +20,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.example.demo.payload.APIResponse;
 import com.example.demo.payload.PostDto;
+import com.example.demo.service.ImageService;
 import com.example.demo.service.PostService;
 
+import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
 
 @RestController
@@ -27,6 +36,12 @@ public class PostController {
 	
 	@Autowired
 	PostService postService;
+	
+	@Autowired
+	ImageService imageService;
+	
+	@Value("${project.image}")
+	String path;
 	
 	@PostMapping("/user/{uid}/category/{catid}")
 	public ResponseEntity<PostDto> addPost(@Valid 
@@ -108,5 +123,27 @@ public class PostController {
 		return new ResponseEntity<>(allpost,HttpStatus.OK);
 	}
 	
+	@PostMapping("/upload/{postid}")
+	public ResponseEntity<PostDto> uploadImage(@PathVariable("postid") int postid,
+							@RequestParam("image") MultipartFile file)
+	{
+		PostDto postdto = postService.postById(postid);
+		String img =  imageService.uploadImage(path, file);
+		postdto.setImage(img);
+		
+		PostDto createdImage =  postService.addImage(postdto);
+		return new ResponseEntity<>(createdImage,HttpStatus.CREATED);
+	}
+	
+	@GetMapping(produces =MediaType.IMAGE_JPEG_VALUE,value = "/image/{imagename}")
+	public ResponseEntity<Resource> viewImage(@PathVariable("imagename") String imgname, HttpServletResponse resp)
+	{
+		InputStream is = imageService.getImage(path, imgname);
+		//resp.setContentType(MediaType.IMAGE_JPEG_VALUE);
+		Resource resource = new InputStreamResource(is);
+		return ResponseEntity.ok()
+	                .contentType(MediaType.IMAGE_JPEG)
+	                .body(resource);
+	}
 	
 }
