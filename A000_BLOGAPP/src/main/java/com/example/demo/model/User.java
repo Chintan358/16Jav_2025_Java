@@ -24,6 +24,9 @@ public class User {
 	@Column(name="about")
 	private String about;
 	
+	@ManyToOne
+	private Role role;
+	
 	@OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
 	List<Post> posts;
 	@OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
