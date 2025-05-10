@@ -12,5 +12,5 @@ public class RoleDto {
 	int id;
 	String role;
 	
-	List<UserDto> user;
+	
 }

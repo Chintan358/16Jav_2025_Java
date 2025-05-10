@@ -22,25 +22,25 @@ public class SecurityConfig {
 		return new BCryptPasswordEncoder();
 	}
 	
-	@Bean
-	public UserDetailsManager detailsManager()
-	{
-		
-		UserDetails adminUser = 
-				User.withUsername("admin")
-				.password(encoder().encode("admin"))
-				.roles("ADMIN").build();
-		
-		UserDetails publicUser = 
-				User.withUsername("user")
-				.password(encoder().encode("user"))
-				.roles("USER").build();
-		
-		
-		InMemoryUserDetailsManager detailsManager = 
-				new InMemoryUserDetailsManager(adminUser,publicUser);
-		return detailsManager;
-	}
+//	@Bean
+//	public UserDetailsManager detailsManager()
+//	{
+//		
+//		UserDetails adminUser = 
+//				User.withUsername("admin")
+//				.password(encoder().encode("admin"))
+//				.roles("ADMIN").build();
+//		
+//		UserDetails publicUser = 
+//				User.withUsername("user")
+//				.password(encoder().encode("user"))
+//				.roles("USER").build();
+//		
+//		
+//		InMemoryUserDetailsManager detailsManager = 
+//				new InMemoryUserDetailsManager(adminUser,publicUser);
+//		return detailsManager;
+//	}
 	
 	
 	@Bean
@@ -50,12 +50,8 @@ public class SecurityConfig {
 		.csrf()
 		.disable()
 		.authorizeHttpRequests()
-		.requestMatchers("/comments/**")
+		.requestMatchers("/users/**")
 		.permitAll()
-		.requestMatchers("/categories/**")
-		.hasRole("ADMIN")
-		.requestMatchers("/posts/**")
-		.hasRole("USER")
 		.anyRequest()
 		.authenticated()
 		.and()

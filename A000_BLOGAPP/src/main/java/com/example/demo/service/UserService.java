@@ -8,7 +8,7 @@ import com.example.demo.payload.UserDto;
 public interface UserService {
 
 	public List<UserDto> allUser();
-	public UserDto addUser(UserDto user);
+	public UserDto addUser(UserDto user, int rid);
 	public UserDto userById(int id);
 	public UserDto userUpdate(UserDto user, int id);
 	public void deletById(int id);

@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,6 +27,9 @@ public class UserController {
 	
 	@Autowired
 	UserService userService;
+	
+	@Autowired
+	PasswordEncoder encoder;
 		
 	@GetMapping("/")
 	public ResponseEntity<List<UserDto>> viewAllUser()
@@ -34,10 +38,11 @@ public class UserController {
 		return new ResponseEntity<>(users,HttpStatus.OK);
 	}
 	
-	@PostMapping("/")
-	public ResponseEntity<UserDto> addUser(@Valid @RequestBody UserDto dto)
+	@PostMapping("/role/{rid}")
+	public ResponseEntity<UserDto> addUser(@Valid @RequestBody UserDto dto, @PathVariable("rid") int rid)
 	{
-		UserDto createUser = userService.addUser(dto);
+		dto.setPassword(encoder.encode(dto.getPassword()));
+		UserDto createUser = userService.addUser(dto,rid);
 		return new ResponseEntity<>(createUser,HttpStatus.CREATED);
 	}
 	

@@ -10,8 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.exception.ResourceNotFoundException;
+import com.example.demo.model.Role;
 import com.example.demo.model.User;
 import com.example.demo.payload.UserDto;
+import com.example.demo.repo.RoleRepo;
 import com.example.demo.repo.UserRepo;
 import com.example.demo.service.UserService;
 
@@ -23,6 +25,9 @@ public class UserServiceImpl implements UserService {
 	
 	@Autowired
 	ModelMapper mapper;
+	
+	@Autowired
+	RoleRepo roleRepo;
 
 	@Override
 	public List<UserDto> allUser() {
@@ -33,9 +38,14 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public UserDto addUser(UserDto user) {
+	public UserDto addUser(UserDto user, int rid) {
 		
-		User u = userRepo.save(this.dtoToUser(user));
+		Role role = roleRepo.findById(rid).orElseThrow(()-> new ResourceNotFoundException("Role", "Id", rid));
+		
+		User usertosave = this.dtoToUser(user);
+		usertosave.setRole(role);
+	
+		User u = userRepo.save(usertosave);
 		return this.userTodto(u);
 	}
 

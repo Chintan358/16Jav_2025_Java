@@ -25,4 +25,6 @@ public class UserDto {
 	@NotBlank
 	private String about;
 	
+	RoleDto role;
+	
 }

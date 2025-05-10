@@ -6,4 +6,5 @@ import com.example.demo.model.User;
 
 public interface UserRepo extends JpaRepository<User, Integer> {
 
+	public User findByUsername(String uname);
 }
