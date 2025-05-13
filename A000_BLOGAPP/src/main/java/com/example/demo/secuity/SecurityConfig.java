@@ -2,8 +2,11 @@ package com.example.demo.secuity;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -11,10 +14,25 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.provisioning.UserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
+	
 
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
+
+	CustomeAuthenticationEntryPoint authenticationEntryPoint;
+	jwtAuthenticationFilter authenticationFilter;
+	
+	
+	
+	public SecurityConfig(CustomeAuthenticationEntryPoint authenticationEntryPoint,
+			jwtAuthenticationFilter authenticationFilter) {
+		super();
+		this.authenticationEntryPoint = authenticationEntryPoint;
+		this.authenticationFilter = authenticationFilter;
+	}
 
 	@Bean
 	public PasswordEncoder encoder()
@@ -42,6 +60,13 @@ public class SecurityConfig {
 //		return detailsManager;
 //	}
 	
+	@Bean
+	public AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) throws Exception
+	{
+		return configuration.getAuthenticationManager();
+	}
+	
+	
 	
 	@Bean
 	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception
@@ -50,12 +75,19 @@ public class SecurityConfig {
 		.csrf()
 		.disable()
 		.authorizeHttpRequests()
-		.requestMatchers("/users/**")
+		.requestMatchers("/users/**","/login","/refresh-token")
 		.permitAll()
+		.requestMatchers("/posts/**")
+		.hasAnyRole("USER")
+		.requestMatchers("/categories/**")
+		.hasAnyRole("ADMIN")
 		.anyRequest()
 		.authenticated()
 		.and()
-		.httpBasic();
+		.exceptionHandling(exception->exception.authenticationEntryPoint(authenticationEntryPoint))
+		.sessionManagement(session->session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+		.addFilterBefore(authenticationFilter,UsernamePasswordAuthenticationFilter.class);
+	
 		
 		return http.build();
 	}
