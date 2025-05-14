@@ -41,7 +41,7 @@ public class jwtAuthenticationFilter extends OncePerRequestFilter {
 		if(authHeader != null && authHeader.startsWith("Bearer ") )
 		{
 			String token = authHeader.substring(7);
-			System.out.println(token);
+			
 			if(jwtService.validateToken(token))
 			{
 				String username = jwtService.getUsernamefromToken(token);

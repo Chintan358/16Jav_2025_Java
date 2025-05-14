@@ -35,7 +35,7 @@ public class CategoryController {
 		return new ResponseEntity<>(createdCategory,HttpStatus.CREATED);
 	}
 	
-	@GetMapping("/")
+	@GetMapping("/all")
 	public ResponseEntity<List<CategoryDto>> viewCategories()
 	{
 		List<CategoryDto> allcategories = categoryService.allCategories();

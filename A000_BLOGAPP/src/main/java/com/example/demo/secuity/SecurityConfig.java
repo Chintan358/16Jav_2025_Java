@@ -2,8 +2,10 @@ package com.example.demo.secuity;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
+import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -20,6 +22,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @Configuration
 @EnableWebSecurity
+@EnableMethodSecurity
 public class SecurityConfig {
 
 	CustomeAuthenticationEntryPoint authenticationEntryPoint;
@@ -75,10 +78,18 @@ public class SecurityConfig {
 		.csrf()
 		.disable()
 		.authorizeHttpRequests()
-		.requestMatchers("/users/**","/login","/refresh-token")
+		.requestMatchers("/login","/refresh-token")
 		.permitAll()
+		.requestMatchers(HttpMethod.POST,"/users/**")
+		.permitAll()
+		.requestMatchers(HttpMethod.GET,"/posts/**")
+		.permitAll()
+		.requestMatchers(HttpMethod.GET,"/categories/**")
+		.permitAll()
+		.requestMatchers("/users/**")
+		.hasAnyRole("USER","ADMIN")
 		.requestMatchers("/posts/**")
-		.hasAnyRole("USER")
+		.hasRole("USER")
 		.requestMatchers("/categories/**")
 		.hasAnyRole("ADMIN")
 		.anyRequest()

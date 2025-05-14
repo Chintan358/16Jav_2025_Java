@@ -64,6 +64,7 @@ public class UserController {
 	@PutMapping("/{userId}")
 	public ResponseEntity updateUser(@RequestBody UserDto dto , @PathVariable("userId") int userId)
 	{
+		dto.setPassword(encoder.encode(dto.getPassword()));
 		UserDto updatedUser = userService.userUpdate(dto, userId);
 		return new ResponseEntity(updatedUser,HttpStatus.OK);
 	}
