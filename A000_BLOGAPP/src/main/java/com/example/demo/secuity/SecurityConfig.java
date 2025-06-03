@@ -78,7 +78,8 @@ public class SecurityConfig {
 		.csrf()
 		.disable()
 		.authorizeHttpRequests()
-		.requestMatchers("/login","/refresh-token")
+		.requestMatchers("/login","/refresh-token","/v3/api-docs/**",
+				"/swagger-ui/**","/swagger-ui.html")
 		.permitAll()
 		.requestMatchers(HttpMethod.POST,"/users/**")
 		.permitAll()
@@ -98,8 +99,6 @@ public class SecurityConfig {
 		.exceptionHandling(exception->exception.authenticationEntryPoint(authenticationEntryPoint))
 		.sessionManagement(session->session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
 		.addFilterBefore(authenticationFilter,UsernamePasswordAuthenticationFilter.class);
-	
-		
 		return http.build();
 	}
 	
